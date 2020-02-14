@@ -1,15 +1,3 @@
-// var i = 0;
-// var txt = ' Hello World!';
-// var speed = 50;
-
-// function typeWriter() {
-//   if (i < txt.length) {
-//     document.getElementById("snippet1").innerHTML += txt.charAt(i);
-//     i++;
-//     setTimeout(typeWriter, speed);
-//   }
-// }
-
 $(document).ready(function(){
   $("#dropdownbtn").click(function(){
     $("#dropdown").slideToggle("fast");
@@ -24,3 +12,17 @@ $(document).ready(function(){
   
   //typeWriter();
 });
+
+// var i = 0;
+// var txt = ' Hello World!';
+// var speed = 50;
+
+// function typeWriter() {
+//   if (i < txt.length) {
+//     document.getElementById("snippet1").innerHTML += txt.charAt(i);
+//     i++;
+//     setTimeout(typeWriter, speed);
+//   }
+// }
+
+
