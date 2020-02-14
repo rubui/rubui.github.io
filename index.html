@@ -1,7 +1,181 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  
+<div id="header">
+
+    <div id="name"><p class="h-name" >REBECCA BUI</p></div>  
+    <div id="navbar">
+
+       <nav>
+       <button id="dropdownbtn"><i class="down"></i></button>
+       <br>
+       <div id="dropdown" class="dropdown-hide">
+        <a href="#projects">PROJECTS</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#experience">EXPERIENCE</a>
+      </div>
+     </nav>
+    </div>
+
+</div>
+
+<!--Introductory Banner -->
+<div id="about" class="about jumbotron jumbotron-fluid">
+  <div class="profile-container" >
+  <img class="profile" src="https://vignette.wikia.nocookie.net/gunnerkrigg/images/b/ba/Katerina_Dolan_Chapter_46.png/revision/latest/top-crop/width/360/height/450?cb=20150424184119" alt="Avatar"> 
+  <br>
+  </div>
+  <div class="code">
+<!--     <p id="snippet1" class="code-text">$</p> -->
+    <p class=" code-text">$ Hello World!
+    <br> $ My name is Rebecca Bui
+      <br> $ I am a recent graduate and software developer
+      <br> $ I'm always updating
+      <br> $ Thank you for taking the time to visit!
+      <br> $
+    </p>
+    
+    
+  </div>
+</div>
+
+<!--Project Showcase -->
+<div id="projects" class="container container-fluid">
+  <p class="h-name">PROJECTS</p>
+  <div class="line"> </div>
+  
+  <div class="row">
+<div class="card col-sm-4" >
+  <img class="card-img-top" src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" alt="Card image cap">
+  <div class="card-body">
+    <div class="light-line"> </div>
+    <p class="card-title">Triumph</p>
+    <p class="card-text">A turn-based strategy heavily inspired by,and with assets borrowed from Fire Emblem.</p>
+    <p style="font-weight:bold">If you're interested in learning more, please feel free to contact me for more information!</p>
+  </div>
+</div>
+  <div class="card col-sm-4" >
+  <img class="card-img-top" src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" alt="Card image cap">
+    <div class="light-line"> </div>
+  <div class="card-body">
+    <h5 class="card-title">California Houseplant Guide</h5>
+    <p class="card-text"> A group project where we created an interactive data visualization to used to assist first-time buyers on what type of houseplant is ideal for their living situation</p>
+    <a target="_blank" href="https://rubui.github.io/CMPS165_Final_Project/graph.html" class="btn btn-primary"> View</a>
+  </div>
+</div>
+    
+      <div class="card col-sm-4" >
+  <img class="card-img-top" src="https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg" alt="Card image cap">
+  <div class="light-line"> </div>
+        <div class="card-body">
+    <h5 class="card-title">Receipt Scanner</h5>
+    <p class="card-text">A group project where we created a program that extracts text from photos of receipts to aggregate data on spending habits and trends.</p>
+    <p style="font-weight:bold">If you're interested in learning more, please feel free to contact me for more information!</p>
+  </div>
+</div>
+</div>
+
+  
+<!-- Education -->
+<div class="container section" id="education">
+  <p class="h-name">EDUCATION</p>
+  <div class="line"> </div>
+  <div class="tflex">
+    <div class="img-col">
+      <a target="_blank" href="https://www.ucsc.edu/"><img class="section-img"src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/The_University_of_California_1868_UCSC.svg/225px-The_University_of_California_1868_UCSC.svg.png">
+    </div>
+    </a>
+
+    <div class="info-col">
+      <p class="h2-name">University of California, Santa Cruz</p> 
+      <p class="h3-name"> Bachelor's of Science, Computer Science</p>
+      <p class="h3-name">Minor in Applied Mathematics</p>
+      <br>
+      <p class="h2-name">Relevant Coursework</p>
+      <ul>
+        <li>Data Structures</li>
+        <li>Computer Systems & Assembly Language</li>
+        <li>Abstract Data Types</li>
+        <li>Computer Architecture</li>
+        <li>Operating Systems</li>
+        <li>Analysis of Algorithms</li>
+        <li>Comparative Programming Languages</li>
+        <li>Computational Models</li>
+        <li>Introduction to Software Engineering</li>
+        <li>Database Systems I & II</li>
+        <li>Data Programming for Visualization</li>
+        <li>Data Wrangling and Web Scraping</li>
+        <li>Probability and Statistics</li>
+        <li>Introduction to Dynamical Systems</li>
+        <li>Classical and Bayesian Inference</li>
+        <li>Computational Methods and Applications</li>
+        <li>Graph Theory</li>
+        <li>Advanced Programming</li>
+        <li>Partial Differential Equations</li>
+        <li>Introduction to Computer Graphics: 3D Modeling</li>
+      </ul>
+    </div>
+      
+    <div class="dateloc-col">
+      <p class="h3-name"> 09/2015 - 06/2019</p>
+      <p class="h3-name">Santa Cruz, CA</p>
+    </div>
+  </div>
+</div>
+
+<!-- Experience -->
+<div id="experience" class="container section">
+  <p class="h-name">EXPERIENCE</p>
+  <div class="line"> </div>
+
+  <div class = "tflex ">
+    <div class="img-col">
+      <a target="_blank" href="https://its.ucsc.edu/resnet/"><img class="section-img"src="https://static.wixstatic.com/media/abb786_958981bca4eb47249b37c08f7e43be26~mv2_d_3264_2352_s_2.png"></a>
+    </div>
+  
+    <div class="experience-section info-col">
+      <p class="h2-name">Residential Network</p> 
+      <p class="h3-name">Student Technical Support Specialist</p>
+      <br>
+      <p> Responsible for assisting students and staff with issues involving on-campus networking and software on their personal device. Additionally, created and maintained documentation on various processes and issues as they arose. </p>
+    </div>
+    
+    <div class="dateloc-col">
+      <p class="h3-name">  09/2015 - 06/2019</p>
+      <p class="h3-name">Santa Cruz, CA</p>
+    </div>
+    
+  </div>
+  
+  <div class="tflex">
+    <div class="img-col">
+      <a target="_blank" href="https://galileo-camps.com/"><img class="section-img"src="https://yt3.ggpht.com/a/AGF-l7-zhwaAZ__fl6YRaPVYa1G3jjlN4QrNantR1g=s900-c-k-c0xffffffff-no-rj-mo">
+      </a>
+    </div>
+    
+    <div class="info-col experience-section">
+      <p class="h2-name">Galileo Summer Quest</p> 
+      <p class="h3-name">Assistant Instructor</p>
+      <br>
+      <p > Was an assistant instructor for go-karts and 3D printing. Assisted students ranging from Elementary to Middle school. Reviewed given lesson plan to create and present demos to students on basic concepts in 3D modeling. </p>
+    </div>
+    
+    <div class="dateloc-col">
+      <p class="h3-name"> Summer 2017 - 2018</p>
+      <p class="h3-name">San Jose, CA</p>
+    </div>
+  </div>
+</div>
+<footer>
+
+</footer>
+
 </body>
 </html>
