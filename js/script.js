@@ -1,6 +1,6 @@
-var i = 0;
-var txt = ' Hello World!';
-var speed = 50;
+// var i = 0;
+// var txt = ' Hello World!';
+// var speed = 50;
 
 // function typeWriter() {
 //   if (i < txt.length) {
