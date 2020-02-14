@@ -15,11 +15,12 @@ $(document).ready(function(){
     $("#dropdown").slideToggle("fast");
   });
   
-  if($("#dropdown").is(":visible")){            $('.down').addClass('up').removeClass('down');
-  } else{
-    $('.up').addClass('down').removeClass('up');
+  // if($("#dropdown").is(":visible")){  
+	 // $('.down').addClass('up').removeClass('down');
+  // } else{
+  //   $('.up').addClass('down').removeClass('up');
   
-  }
+  // }
   
   //typeWriter();
 });
