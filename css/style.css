@@ -7,6 +7,10 @@
   display: inline-block;
 }
 
+
+/* TYPEWRITER CODE TESTING
+https://css-tricks.com/snippets/css/typewriter-effect/
+*/
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
